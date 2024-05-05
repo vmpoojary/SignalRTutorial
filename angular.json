@@ -64,7 +64,8 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "SignalRTutorial:build:production"
+              "browserTarget": "SignalRTutorial:build:production",
+              "proxyConfig": "src/_configuration/proxy.conf.json"
             },
             "development": {
               "browserTarget": "SignalRTutorial:build:development"
